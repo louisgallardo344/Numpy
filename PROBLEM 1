@@ -1,0 +1,6 @@
+import numpy as np
+
+x= np.random.random((5,5))
+
+x_normed = (x - x.min(0)) / x.ptp(0)
+print(x_normed)
